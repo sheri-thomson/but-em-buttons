@@ -1,5 +1,5 @@
 html {
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 
 body {
@@ -9,4 +9,39 @@ body {
 .content {
   color: #fff;
   position: relative;
+  padding-top: 275px;
+}
+
+.heading {
+  text-shadow: 0 0 10px rgba(255, 255, 255, .7);
+}
+
+i {
+  position: absolute;
+}
+
+.btn-ghost {
+  color: #b4fff4;
+  border-radius: 4px 4px 0 0;
+  border-color: #90ccc3;
+  transition: all 500ms linear;
+}
+
+.btn-ghost:hover, .btn-ghost:focus {
+  background-color: rgba(180, 255, 244, .2);
+  color: #b4fff4;
+  border-radius: 4px 4px 0 0;
+  border-color: #90ccc3;
+}
+
+.btn-bottom {
+  border: 4px solid #90ccc3;
+  border-radius: 0 0 3px 3px;
+  width: calc(100% + 6px);
+  min-height: .5em;
+  background-color: transparent;
+}
+
+.btn-ghost:active {
+  min-height: .5em;
 }
